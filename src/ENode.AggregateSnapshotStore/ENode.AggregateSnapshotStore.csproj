@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/berkaroad/ENode.AggregateSnapshotStore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/berkaroad/ENode.AggregateSnapshotStore</RepositoryUrl>
+    <Authors>Jerry Bai</Authors>
+    <PackageId>ENode.AggregateSnapshotStore</PackageId>
+    <Version>1.0.0</Version>
+    <Title>ENode.AggregateSnapshotStore</Title>
+    <PackageIcon>_content\package.png</PackageIcon>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <ContentTargetFolders>_content</ContentTargetFolders>
+    <Description>聚合根快照存储接口</Description>
+    <Summary>聚合根快照存储接口</Summary>
+    <PackageTags>snapshot eventsourcing cqrs aggregate enode</PackageTags>
+    <PackageReleaseNotes>提供聚合根快照存储接口
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AggregateSnapshotStore" Version="1.0.0" />
+    <PackageReference Include="ENode" Version="2.9.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\package.png">
+      <Link>_content\package.png</Link>
+    </Content>
+  </ItemGroup>
+
+</Project>
