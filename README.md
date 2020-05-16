@@ -5,6 +5,8 @@ The default implementation of `IAggregateSnapshotRequestQueue` is `DefaultAggreg
 
 If you want to deploy snapshot app standly, you can implement `IAggregateSnapshotRequestQueue` to enqueue request to mq, and then subscribe from mq and take snapshot in snapshot app.
 
+Reference [AggregateSnapshotStore](https://github.com/berkaroad/AggregateSnapshotStore)
+
 ## Installation and Usage
 
 In InventoryControl.ProcessorHost project, install these packages:
