@@ -240,3 +240,13 @@ namespace InventoryControl.Snapshots.StockModule
 }
 
 ```
+
+## History Publish
+
+### 1.0.1
+
+Upgrade package `AggregateSnapshotStore` to 1.0.1
+
+### 1.0.0
+
+初始版本
